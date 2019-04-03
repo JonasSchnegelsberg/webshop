@@ -1,0 +1,61 @@
+/* CSS Document */
+
+/*--------------IMAGE PORTALS--------------*/
+
+.portal_gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.portal_gallery article {
+	position: relative;
+	margin: 1em 5em;
+	width: 60%;
+}
+
+.portal_gallery > article > img {
+	width: 100%;
+	height: auto;
+}
+
+p.visit {
+	color: #777;
+	float: right;
+	font-size: 1em;
+	padding: 1em;
+	background-color: #111;
+	transition: all 0.3s;
+}
+
+p.visit:hover {
+	box-shadow: 0 10px 20px rgba(0,0,0,.5);
+}
+
+p.visit::after {
+	content: "";
+	background-image: url(../images/arrow.png);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	margin: 0 1em 0 1em;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+p.price {
+	color: #777;
+	font-size: 1.5em;
+	float: left;
+	padding: 0;
+	
+}
+
+.slides {
+	max-width: 60%;
+}
+
+.mySlides {
+	display:none;
+}

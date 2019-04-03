@@ -1,34 +1,31 @@
 {
 	"products" : [
 		{
-			"name" : "Awesome T-shirt",
-			"price" : "35.99",
+			"name" : "sad_boi // 1",
+			"price" : "3.00",
 			"options" : [
 				{ "Size" : "Small,Medium,Large" }
 			],
-			"image" : "http://upload.wikimedia.org/wikipedia/commons/c/c6/Grey_Tshirt.jpg",
-			"description" : "This is a very awesome grey T-shirt"
-		},
+			"image" : "images/patron_sadboi2.png",
+			"description" : "f e e l s b a d m a n"
+		},		
 		{
-			"name" : "Cool T-shirt",
-			"price" : "15.99",
-			"options" : [
-				{ "Size" : "Small,Medium,Large" },
-				{ "Color" : "Blue,Red" },
-			    { "OneOfAKind" : true }
-			],
-			"image" : "http://upload.wikimedia.org/wikipedia/commons/2/24/Blue_Tshirt.jpg",
-			"description" : "This is a really cool blue T-shirt",
-			"soldOut" : true
-		},
-		{
-			"name" : "Fun T-shirt",
-			"price" : "15.99",
+			"name" : "sad_boi // 2",
+			"price" : "300.00",
 			"options" : [
 				{ "Size" : "Small,Medium,Large" }
 			],
-			"image" : "http://upload.wikimedia.org/wikipedia/commons/c/c6/Grey_Tshirt.jpg",
-			"description" : "This is another fun grey T-shirt"
+			"image" : "images/patron_sadboi2.png",
+			"description" : "Never lucky dude.."
+		},		
+		{
+			"name" : "sad_boi // 3",
+			"price" : "200.00",
+			"options" : [
+				{ "Size" : "Small,Medium,Large" }
+			],
+			"image" : "images/patron_sadboi2.png",
+			"description" : "This is a pretty ugly shirt.. we would give it away but we also need to make a living"
 		}
 	]
 }
