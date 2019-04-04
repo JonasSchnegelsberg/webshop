@@ -7,10 +7,10 @@
 				{ "Size" : "Large" }
 			],
 			"image" : "images/logoboy.png",
-			"description" : "Dreg shirt with logo"
+			"description" : "Normal price: 250.00 DDK. - Launch price: 125.00 DDK."
 		},
 		{
-			"name" : "Comming soon",
+			"name" : "Coming soon",
 			"price" : "April 05th",
 			"options" : [
 				{ "Size" : "Large" }
@@ -19,7 +19,7 @@
 			"description" : "Releasing April 05th"
 		},			
 		{
-			"name" : "Comming soon",
+			"name" : "Coming soon",
 			"price" : "April 05th",
 			"options" : [
 				{ "Size" : "Large" }
