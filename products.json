@@ -4,25 +4,25 @@
 			"name" : "Dreg shirt",
 			"price" : "125.00",
 			"options" : [
-				{ "Size" : "Small,Medium,Large" }
+				{ "Size" : "Large" }
 			],
 			"image" : "images/logoboy.png",
 			"description" : "Dreg shirt with logo"
 		},
 		{
 			"name" : "Comming soon",
-			"price" : "April 05",
+			"price" : "April 05th",
 			"options" : [
-				{ "Size" : "Small,Medium,Large" }
+				{ "Size" : "Large" }
 			],
 			"image" : "images/sagawa.png",
 			"description" : "Releasing April 05th"
 		},			
 		{
 			"name" : "Comming soon",
-			"price" : "???",
+			"price" : "April 05th",
 			"options" : [
-				{ "Size" : "Small,Medium,Large" }
+				{ "Size" : "Large" }
 			],
 			"image" : "images/ma.png",
 			"description" : "Releasing April 05th"
