@@ -4,27 +4,27 @@
 			"name" : "Dreg shirt",
 			"price" : "125.00",
 			"options" : [
-				{ "Size" : "Large" }
+				{ "Size" : "Small,Large,Large,XL-Large" }
 			],
-			"image" : "images/logoboy.png",
+			"image" : "images/logot-shirt.png",
 			"description" : "Normal price: 250.00 DDK. - Launch price: 125.00 DDK."
 		},
 		{
 			"name" : "Coming soon",
-			"price" : "April 05th",
+			"price" : "",
 			"options" : [
-				{ "Size" : "Large" }
+				{ "Size" : "Small,Large,Large,XL-Large" }
 			],
-			"image" : "images/sagawa.png",
+			"image" : "images/john.png",
 			"description" : "Releasing April 05th"
 		},			
 		{
 			"name" : "Coming soon",
-			"price" : "April 05th",
+			"price" : "",
 			"options" : [
-				{ "Size" : "Large" }
+				{ "Size" : "Small,Large,Large,XL-Large" }
 			],
-			"image" : "images/ma.png",
+			"image" : "images/sagawa.png",
 			"description" : "Releasing April 05th"
 		}
 	]
