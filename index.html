@@ -21,7 +21,19 @@
 
     <!-- Favicon
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="icon" type="image/png" href="images/favicon.jpg">
+	
+	<!-- Google analytics
+	-------------------------------------------------- -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-131010956-2"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+	  	function gtag(){dataLayer.push(arguments);}
+	  	gtag('js', new Date());
+
+	  	gtag('config', 'UA-131010956-2');
+	</script>
+
 
 </head>
 <body>
@@ -66,7 +78,7 @@
 
             <div class="row">
                 <div class="four columns">
-                    <img src="" class="item_thumb"/>
+                    <img src="" class="item_thumb modal-content"/>
                 </div>
                 <div class="eight columns">
                     <h5 class="item_name"></h5>
@@ -98,16 +110,13 @@
                 </div>
                 <div class="four columns">
                     <div class="cart_info">
-                        <div class="cart_info_item cart_itemcount">Items:
-                            <div class="simpleCart_quantity"></div>
-                        </div>
-                        <div class="cart_info_item cart_taxrate">Tax Rate:
+                        <div class="cart_info_item cart_taxrate">Moms Rate:
                             <div class="simpleCart_taxRate"></div>
                         </div>
-                        <div class="cart_info_item cart_tax">Tax:
+                        <div class="cart_info_item cart_tax">Moms:
                             <div class="simpleCart_tax"></div>
                         </div>
-                        <div class="cart_info_item cart_shipping">Shipping:
+                        <div class="cart_info_item cart_shipping">Fragt:
                             <div class="simpleCart_shipping"></div>
                         </div>
                         <div class="cart_info_item cart_total"><b>Total:
@@ -128,6 +137,29 @@
 			<a href="#" class="close alert_close">&times;</a>
         </div>
     </script>
+	
+	<script>
+		// Get the modal
+		var modal = document.getElementById('myModal');
+
+		// Get the image and insert it inside the modal - use its "alt" text as a caption
+		var img = document.getElementById('myImg');
+		var modalImg = document.getElementById("img01");
+		var captionText = document.getElementById("caption");
+		img.onclick = function(){
+		  modal.style.display = "block";
+		  modalImg.src = this.src;
+		  captionText.innerHTML = this.alt;
+		}
+
+		// Get the <span> element that closes the modal
+		var span = document.getElementsByClassName("close")[0];
+
+		// When the user clicks on <span> (x), close the modal
+		span.onclick = function() { 
+		  modal.style.display = "none";
+		}
+	</script>
 
 <!-- End Document
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->

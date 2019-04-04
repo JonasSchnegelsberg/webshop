@@ -48,7 +48,6 @@ a.hover {
 
 .simpleCart_items div:first-child {
     width: 100%;
-	background-color: #333;
 }
 
 .simpleCart_decrement, .simpleCart_increment {
@@ -71,11 +70,6 @@ a.hover {
     display: block;
     margin: 0 auto;
     padding-bottom: 10px;
-	transition: all 1s;
-}
-
-.item_thumb:hover, .detail_thumb:hover {
-	transform: scale(1.05);
 }
 
 .item_Quantity {
@@ -87,7 +81,7 @@ a.hover {
     font-weight: 700;
     font-size: 20px;
     line-height: 22px;
-	color: #fff;
+	color: #222;
 }
 
 .item_description {
@@ -165,7 +159,7 @@ a.hover {
     margin: 15px 0px;
     position: relative;
 	border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
-	border: solid 1px #fff;
+	border: solid 1px #222;
 }
 
 .simpleStore_detailView.simpleCart_shelfItem {
@@ -193,7 +187,7 @@ a.hover {
 .simpleStore_cart {
     position: relative;
 	border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
-	border: solid 1px #fff;
+	border: solid 1px #222;
     padding: 22px;
     min-height: 230px;
     margin: 15px 0px;

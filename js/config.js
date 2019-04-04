@@ -42,13 +42,13 @@ $(function() {
 	    shippingCustom: null,
 
 	    // flat rate shipping option
-	    shippingFlatRate: 0,
+	    shippingFlatRate: 30,
 
 	    // added shipping based on this value multiplied by the cart quantity
 	    shippingQuantityRate: 0,
 
 	    // added shipping based on this value multiplied by the cart subtotal
-	    shippingTotalRate: 0.1,
+	    shippingTotalRate: 0,
 
 	    // tax rate applied to cart subtotal
 	    taxRate: 0.25,
