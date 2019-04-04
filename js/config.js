@@ -4,13 +4,13 @@ $(function() {
 	    // array representing the format and columns of the cart, see
 	    // the cart columns documentation
 	    cartColumns: [
-	        { attr: "name" , label: "Navn" },
-	        { attr: "price" , label: "Pris", view: 'currency' },
+	        { attr: "name" , label: "Name" },
+	        { attr: "price" , label: "Price", view: 'currency' },
 	        { view: "decrement" , label: false },
 	        { attr: "quantity" , label: "Qty" },
 	        { view: "increment" , label: false },
 	        { attr: "total" , label: "SubTotal", view: 'currency' },
-	        { view: "remove" , text: "Fjern" , label: false }
+	        { view: "remove" , text: "remove" , label: false }
 	    ],
 
 	    // "div" or "table" - builds the cart as a table or collection of divs
@@ -30,7 +30,7 @@ $(function() {
 	    data: {},
 
 	    // set the cart langauge (may be used for checkout)
-	    language: "danish-dk",
+	    language: "english-en",
 
 	    // array of item fields that will not be sent to checkout
 	    excludeFromCheckout: [

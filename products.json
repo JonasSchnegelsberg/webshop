@@ -1,31 +1,31 @@
 {
 	"products" : [
 		{
-			"name" : "sad_boi // 1",
-			"price" : "3.00",
+			"name" : "Dreg shirt",
+			"price" : "125.00",
 			"options" : [
 				{ "Size" : "Small,Medium,Large" }
 			],
-			"image" : "images/patron_sadboi2.png",
-			"description" : "f e e l s b a d m a n"
-		},		
+			"image" : "images/logoboy.png",
+			"description" : "Dreg shirt with logo"
+		},
 		{
-			"name" : "sad_boi // 2",
-			"price" : "300.00",
+			"name" : "Comming soon",
+			"price" : "April 05",
 			"options" : [
 				{ "Size" : "Small,Medium,Large" }
 			],
-			"image" : "images/patron_sadboi2.png",
-			"description" : "Never lucky dude.."
-		},		
+			"image" : "images/sagawa.png",
+			"description" : "Releasing April 05th"
+		},			
 		{
-			"name" : "sad_boi // 3",
-			"price" : "200.00",
+			"name" : "Comming soon",
+			"price" : "???",
 			"options" : [
 				{ "Size" : "Small,Medium,Large" }
 			],
-			"image" : "images/patron_sadboi2.png",
-			"description" : "This is a pretty ugly shirt.. we would give it away but we also need to make a living"
+			"image" : "images/ma.png",
+			"description" : "Releasing April 05th"
 		}
 	]
 }
