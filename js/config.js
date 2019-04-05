@@ -10,7 +10,7 @@ $(function() {
 	        { attr: "quantity" , label: "Qty" },
 	        { view: "increment" , label: false },
 	        { attr: "total" , label: "SubTotal", view: 'currency' },
-	        { view: "remove" , text: "remove" , label: false }
+	        { view: "remove" , text: "Remove" , label: false }
 	    ],
 
 	    // "div" or "table" - builds the cart as a table or collection of divs
@@ -30,7 +30,7 @@ $(function() {
 	    data: {},
 
 	    // set the cart langauge (may be used for checkout)
-	    language: "english-en",
+	    language: "english-us",
 
 	    // array of item fields that will not be sent to checkout
 	    excludeFromCheckout: [
@@ -51,7 +51,7 @@ $(function() {
 	    shippingTotalRate: 0,
 
 	    // tax rate applied to cart subtotal
-	    taxRate: 0.25,
+	    taxRate: 0,
 
 	    // true if tax should be applied to shipping
 	    taxShipping: false,

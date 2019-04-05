@@ -1,10 +1,10 @@
 {
 	"products" : [
 		{
-			"name" : "Dreg shirt",
+			"name" : "Dreg Shirt",
 			"price" : "125.00",
 			"options" : [
-				{ "Size" : "Small,Medium,Large,XL-Large" }
+				{ "Size" : "Small,Medium,Large" }
 			],
 			"image" : "images/logot-shirt.png",
 			"description" : "Rock the Dreg style with our 'Dreg shirt' on discounted price"
@@ -13,19 +13,19 @@
 			"name" : "Assassin",
 			"price" : "125.00",
 			"options" : [
-				{ "Size" : "Small,Medium,Large,XL-Large" }
+				{ "Size" : "Small,Medium,Large" }
 			],
 			"image" : "images/john.png",
-			"description" : "Born in 1838 John Wilkes Booth made history by Assassinating The 16th President, Abraham Lincoln, April the 14th. After fleeing on horseback Booth manage to stay hidden for 12 days but got tracked down and shot to death for his crimes.. what a DREG."
-		},			
+			"description" : "John Wilkes Booth made history by Assassinating The 16th President, Abraham Lincoln, April the 14th. He manage to evade custody for 12 days before he was found and shot for his crimes. What a dreg"
+		},
 		{
 			"name" : "ManEater",
 			"price" : "125.00",
 			"options" : [
-				{ "Size" : "Small,Medium,Large,XL-Large" }
+				{ "Size" : "Small,Medium,Large" }
 			],
 			"image" : "images/sagawa.png",
-			"description" : "Issei Sagawa was prematurely born in 1949 and was very small and 'weak' as he discriped himself in an interview. Sagawa had his first experience with cannibalism in 1st grade when he saw a male thigh. At the age of 32 he killed and ate his first victim. When attempting to dumpe the body in a river he was discovered and taken into costudy by the french authorities.. absolute DREG"
+			"description" : "At the age of 32 Issei Sagawa killed and ate his first victim. When attempting to dumpe the body in a river he was discovered and taken into costudy by the french authorities. Absolute DREG"
 		}
 	]
 }
