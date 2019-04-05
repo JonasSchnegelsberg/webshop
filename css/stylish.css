@@ -17,6 +17,7 @@
 .portal_gallery > article > img {
 	width: 100%;
 	height: auto;
+	border: 1px solid #222;
 }
 
 .mySlides {

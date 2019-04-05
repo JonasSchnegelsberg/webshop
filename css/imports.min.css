@@ -141,6 +141,9 @@ footer {
 	text-align: left;
 	color: #222;
 	margin-left: 2em;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	letter-spacing: 0.1em;
+	text-transform: none;
 }
 
 .modal-content span {
