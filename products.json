@@ -2,7 +2,7 @@
 	"products" : [
 		{
 			"name" : "Dreg shirt",
-			"price" : "125.00 DDK",
+			"price" : "125.00",
 			"options" : [
 				{ "Size" : "Small,Medium,Large,XL-Large" }
 			],
@@ -11,7 +11,7 @@
 		},
 		{
 			"name" : "Assassin",
-			"price" : "125.00 DDK",
+			"price" : "125.00",
 			"options" : [
 				{ "Size" : "Small,Medium,Large,XL-Large" }
 			],
@@ -20,7 +20,7 @@
 		},			
 		{
 			"name" : "ManEater",
-			"price" : "125.00 DDK",
+			"price" : "125.00",
 			"options" : [
 				{ "Size" : "Small,Medium,Large,XL-Large" }
 			],
