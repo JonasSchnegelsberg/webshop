@@ -30,6 +30,11 @@
 	text-align: center;
 	text-transform: none;
 	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif", "All Round Gothic Demi Oblique";
+	margin-bottom: 2em;
+}
+
+.alert > p {
+	margin-bottom: -0.5em;
 }
 
 .closebtn {
@@ -54,7 +59,7 @@
   	height: 150px;
   	overflow: hidden;
   	position: absolute;
-	z-index: 3;
+	z-index: 1;
 }
 
 .ribbon::before,
