@@ -1,6 +1,17 @@
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono|Indie+Flower|Just+Me+Again+Down+Here');
 
+.discount {
+	text-decoration: line-through;
+	text-decoration-color: #CA2934;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 22px;
+	color: #222;
+}
+
+
+
 html{
 	/*font-family: IBM Plex Mono;*/
 	font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', 'Arial Black', 'sans-serif', 'All Round Gothic Demi Oblique';
