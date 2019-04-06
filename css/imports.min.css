@@ -65,6 +65,7 @@ footer {
 
 .some {
 	grid-column: 1;
+	display: none;
 }
 
 .ts {
@@ -127,7 +128,7 @@ footer {
   	padding: 20px;
 	padding-bottom: 100px;
   	border: 1px solid #888;
-  	width: 60%;
+  	width: 95%;
 }
 
 .modal-content a:hover {
@@ -136,7 +137,7 @@ footer {
 }
 
 #myBtn {
-	max-width: 100%;
+	width: auto;
 	padding: 20px;
 	height: 55px;
 	line-height: 1em;
@@ -248,7 +249,7 @@ svg:not(:root){
 }
 
 figure{
-	margin:1em 40px;
+	margin: 0 auto;
 }
 
 hr{
@@ -424,6 +425,10 @@ a:hover{
 	vertical-align: middle;
 }
 
+.simpleStore_viewCart {
+	float: right;
+}
+
 .shop::before {
 	content: "";
 	background-image: url(../images/shoppingcart.png);
@@ -591,8 +596,12 @@ blockquote,dl,figure,form,ol,p,pre,table,ul{
 	box-sizing:border-box;
 }
 
+.pull-right {
+	float: right;
+}
+
 .u-pull-right{
-	float:right;
+	float:left;
 }
 
 .u-pull-left{

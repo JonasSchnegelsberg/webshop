@@ -1,6 +1,5 @@
 /* CSS Document */
-
-@media (min-width:550px){
+@media (min-width: 1280px) {
 	h1{font-size:5rem}
 	
 	h2{font-size:4.2rem}
@@ -25,10 +24,12 @@
 
 	.some {
 		grid-column: 2;
+		display:block;
 	}
 
 	.ts {
-		grid-column: 3;
+		grid-column: 2;
+		display: contents;
 	}
 	
 	.fa {
@@ -46,20 +47,66 @@
 		height: 55px;
 		line-height: 1em;
 		float: right;
+		margin: 0 auto;
 	}
+	
+	figure {
+		margin:1em 40px;
+	}	
 }
 
-@media (min-width:400px){
-	.container{
-		width:85%;
-		padding:0;
+@media (min-width: 1366px) {	
+	.live_some {
+		grid-column: 3;
+		padding: 1em 1em;
+		display: grid;
+		border-left: 1px solid #222;
+		border-top: 1px solid #222;
+	}
+	
+}
+
+@media (min-width:1280px){
+	#myBtn {
+		width: 100%;
+	}	
+	
+	.homepage {
+		display: grid;
+		border: none;
+	}
+
+	.display {
+		grid-column: 1 / span 2;
+		padding: 2em;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		justify-content: center;
+	}
+
+	.container {
+		margin-bottom: 2em;
+		width: 90%;
+		padding: 0;
+	}
+	
+	.modal-content {
+		background-color: #fefefe;
+		margin: auto;
+		padding: 20px;
+		padding-bottom: 20px;
+		padding-bottom: 100px;
+		border: 1px solid #888;
+		width: 60%;
 	}
 }
 
 @media (min-width:550px){
-	.container{
-		width:80%
+	.u-pull-right{
+		float:right;
 	}
+	
 	.column,.columns{
 		margin-left:4%;
 	}
