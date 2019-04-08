@@ -2,16 +2,16 @@
 	"products" : [
 		{
 			"name" : "Dreg Shirt",
-			"price" : "125.00",
+			"price" : "250.00",
 			"options" : [
 				{ "Size" : "Small,Medium,Large" }
 			],
 			"image" : "images/logot-shirt.png",
-			"description" : "Rock the Dreg style with our 'Dreg shirt' on a discounted price"
+			"description" : "Rock the Dreg style with our DREG shirt."
 		},
 		{
 			"name" : "Assassin",
-			"price" : "125.00",
+			"price" : "250.00",
 			"options" : [
 				{ "Size" : "Small,Medium,Large" }
 			],
@@ -20,7 +20,7 @@
 		},
 		{
 			"name" : "ManEater",
-			"price" : "125.00",
+			"price" : "250.00",
 			"options" : [
 				{ "Size" : "Small,Medium,Large" }
 			],
