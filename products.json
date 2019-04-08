@@ -7,7 +7,7 @@
 				{ "Size" : "Small,Medium,Large" }
 			],
 			"image" : "images/logot-shirt.png",
-			"description" : "Rock the Dreg style with our 'Dreg shirt' on discounted price"
+			"description" : "Rock the Dreg style with our 'Dreg shirt' on a discounted price"
 		},
 		{
 			"name" : "Assassin",
@@ -16,7 +16,7 @@
 				{ "Size" : "Small,Medium,Large" }
 			],
 			"image" : "images/john.png",
-			"description" : "John Wilkes Booth made history by Assassinating The 16th President, Abraham Lincoln, April the 14th. He manage to evade custody for 12 days before he was found and shot for his crimes. What a dreg"
+			"description" : "John Wilkes Booth made history by assassinating the 16th President, Abraham Lincoln, April the 14th. He managed to evade custody for 12 days, before he was found and shot for his crimes. What a DREG!"
 		},
 		{
 			"name" : "ManEater",
@@ -25,7 +25,7 @@
 				{ "Size" : "Small,Medium,Large" }
 			],
 			"image" : "images/sagawa.png",
-			"description" : "At the age of 32 Issei Sagawa killed and ate his first victim. When attempting to dumpe the body in a river he was discovered and taken into costudy by the french authorities. Absolute DREG"
+			"description" : "At the age of 32, Issei Sagawa killed and ate his first victim. When attempting to dump the body in a river, he was discovered and taken into custody by the french authorities. Absolute DREG!"
 		}
 	]
 }
