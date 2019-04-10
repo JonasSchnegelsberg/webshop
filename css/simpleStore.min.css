@@ -10,7 +10,7 @@ a.hover {
     text-decoration: none;
 }
 
-/* Main Layout */
+/* HOVED LAYOUT */
 
 .simpleStore {
     margin-top: 20px;
@@ -31,7 +31,7 @@ a.hover {
 	max-height: 100px;
 }
 
-/* simpleCart */
+/* INDKØBSKURV INFO */
 
 .simpleCart_shelfItem {
     padding: 25px 18px 10px 18px;
@@ -127,7 +127,7 @@ a.hover {
     text-align: center;
 }
 
-/* Cart */
+/* INDKØBSKURV */
 
 .cart_info {
     position: absolute;
@@ -149,7 +149,7 @@ a.hover {
     font-size: 20px;
 }
 
-/* Views */
+/* PRODUKT FREMVISNING */
 
 .simpleStore_getDetail_container {
     display: block;
@@ -212,7 +212,7 @@ a.simpleCart_empty:hover {
 }
 
 
-/* Utility */
+/* VÆRKTØJER */
 
 .hidden {
     display: none;

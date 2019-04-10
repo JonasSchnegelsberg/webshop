@@ -155,12 +155,15 @@
 			<a href="https://www.instagram.com/dregdregdreg/" target="_blank" class="fa fa-instagram"></a>
 
 		</figure>
+		<!-- TERMS AND SERVICE -->
 		<figure>
+			<!-- ÅBNE KNAPPEN -->
 			<button id="myBtn">Terms &amp; Conditions</button>
-			<!-- The Modal -->
+			<!-- VINDUET -->
 			<div id="myModal" class="modal">
-				<!-- Modal content -->
+				<!-- INDHOLDET -->
 				<div class="modal-content">
+					<!-- LUKKE KNAPPEN -->
 					<span class="close">&times;</span>
 					<h2>Terms &amp; Conditions</h2>
 					
@@ -184,62 +187,65 @@
 		</figure>
 		
 	</footer>
+	<!-- COUNTDOWN COUNTER FOR FREE SHIPPING BANNER -->
 	<script>
-		// Get the modal
-		var modal = document.getElementById('myModal');
-
-		// Get the button that opens the modal
-		var btn = document.getElementById("myBtn");
-
-		// Get the <span> element that closes the modal
-		var span = document.getElementsByClassName("close")[0];
-
-		// When the user clicks the button, open the modal 
-		btn.onclick = function() {
-		  modal.style.display = "block";
-		}
-
-		// When the user clicks on <span> (x), close the modal
-		span.onclick = function() {
-		  modal.style.display = "none";
-		}
-
-		// When the user clicks anywhere outside of the modal, close it
-		window.onclick = function(event) {
-		  if (event.target == modal) {
-			modal.style.display = "none";
-		  }
-		}
-	</script>
-	<script>
-		// Set the date we're counting down to
+		// SÆTTER DATO HER TIL HVOR NÅR DEN UDLØBER
 		var countDownDate = new Date("Apr 7, 2019 23:59:59").getTime();
 
-		// Update the count down every 1 second
+		// OPDATERE COUNTEREN HVERT SEKUND
 		var x = setInterval(function() {
 
-		  // Get todays date and time
+		  // HENTER DEN NUVLÆRENDE DATO
 		  var now = new Date().getTime();
 
-		  // Find the distance between now and the count down date
+		  // FINDER AFSTANDEN MELLEM COUNTER DATO OG NUVÆRENDE DATO
 		  var distance = countDownDate - now;
 
-		  // Time calculations for days, hours, minutes and seconds
+		  // TIDS UDREGNING FOR DAGE, TIMER, MINUTTER OG SEKUNDER
 		  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
 		  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
 		  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
 		  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-		  // Output the result in an element with id="demo"
-		  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+		  // PRINTER RESULTATET I DET ID SOM HEDDER id="new"
+		  document.getElementById("new").innerHTML = days + "d " + hours + "h "
 		  + minutes + "m " + seconds + "s ";
 
-		  // If the count down is over, write some text 
+		  // NÅR COUNTEREN UDLØBER SKAL DEN SKRIVE DET HER 
 		  if (distance < 0) {
 			clearInterval(x);
-			document.getElementById("demo").innerHTML = "EXPIRED";
+			document.getElementById("new").innerHTML = "EXPIRED";
 		  }
 		}, 1000);
+	</script>	
+	
+	<!-- TERMS AND SERVICE POPUP -->
+	<script>
+		// HENTER DET ID SOM HEDDER "myModal"
+		var modal = document.getElementById('myModal');
+
+		// FINDER KNAPPEN SOM HEDDER "myBtn"
+		var btn = document.getElementById("myBtn");
+
+		// FINDER DET <span> ELEMENT SOM KAN LUKKE "myModal"
+		var span = document.getElementsByClassName("close")[0];
+
+		// NÅR KNAPPEN TIL TERMS AND SERVICE BLIVER KLIKKET SKAL DEN ÅBNE 
+		btn.onclick = function() {
+		  modal.style.display = "block";
+		}
+
+		// NÅR BRUGEREN TRYKKER PÅ KNAPPEN TIL AT LUKKE SKAL DEN LUKKE
+		span.onclick = function() {
+		  modal.style.display = "none";
+		}
+
+		// HVIS BRUGEREN TRYKKER UDEN FOR VINDUET SKAL DEN OGSÅ LUKKE
+		window.onclick = function(event) {
+		  if (event.target == modal) {
+			modal.style.display = "none";
+		  }
+		}
 	</script>
 <!-- End Document
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->

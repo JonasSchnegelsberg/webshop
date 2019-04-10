@@ -16,7 +16,7 @@
 .live_some {
 	display: none;
 }
-/*--------------NEWS CARD--------------*/
+/*--------------NEWS CARDS--------------*/
 
 .portal_gallery {
 	display: flex;
@@ -68,6 +68,8 @@
 .closebtn:hover {
   	color: black;
 }
+
+
 /*--------------NEWS RIBBON--------------*/
 
 
@@ -102,7 +104,7 @@
   	text-align: center;
 }
 
-/* top left*/
+
 .ribbon-top-left {
   	top: -10px;
   	left: -10px;

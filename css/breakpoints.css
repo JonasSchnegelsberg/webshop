@@ -52,21 +52,8 @@
 	
 	figure {
 		margin:1em 40px;
-	}	
-}
-
-@media (min-width: 1366px) {	
-	.live_some {
-		grid-column: 3;
-		padding: 1em 1em;
-		display: grid;
-		border-left: 1px solid #222;
-		border-top: 1px solid #222;
 	}
 	
-}
-
-@media (min-width:1280px){
 	#myBtn {
 		width: 100%;
 	}	
@@ -99,7 +86,18 @@
 		padding-bottom: 100px;
 		border: 1px solid #888;
 		width: 60%;
+	}	
+}
+
+@media (min-width: 1366px) {	
+	.live_some {
+		grid-column: 3;
+		padding: 1em 1em;
+		display: grid;
+		border-left: 1px solid #222;
+		border-top: 1px solid #222;
 	}
+	
 }
 
 @media (min-width:550px){

@@ -1,19 +1,8 @@
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono|Indie+Flower|Just+Me+Again+Down+Here');
 
-.discount {
-	text-decoration: line-through;
-	text-decoration-color: #CA2934;
-	font-weight: 700;
-	font-size: 20px;
-	line-height: 22px;
-	color: #222;
-}
-
-
 
 html{
-	/*font-family: IBM Plex Mono;*/
 	font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', 'Arial Black', 'sans-serif', 'All Round Gothic Demi Oblique';
 	text-transform: uppercase;
 	letter-spacing: 0.3em;
@@ -108,17 +97,17 @@ footer {
 
 /*----- TERMS AND CONDITIONS -----*/
 .modal {
-  	display: none; /* Hidden by default */
-  	position: fixed; /* Stay in place */
-  	z-index: 1; /* Sit on top */
-  	padding-top: 2em; /* Location of the box */
+  	display: none; 							/* SKAL IKKE VISES FØR ÅBEN KNAP ER BLEVET TRYKKET */
+  	position: fixed; 				
+  	z-index: 1; 					
+  	padding-top: 2em; 					
 	margin-bottom: 2em;
   	left: 0;
   	top: 0;
-  	width: 100%; /* Full width */
-  	height: 100%; /* Full height */
-  	overflow: auto; /* Enable scroll if needed */
-  	background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+  	width: 100%; 						
+  	height: 100%; 							
+  	overflow: auto; 						/* HVIS SKÆRMEN ER FOR LILLE SKAL DEN KUNNE SCROLLE */
+  	background-color: rgba(0,0,0,0.8); 		/* GØR BAGGRUND MØRK */
 }
 
 /* Modal Content */
@@ -162,7 +151,7 @@ footer {
 	color: #CA2934;
 }
 
-/* The Close Button */
+/* LUKKE KNAPPEN */
 .close {
   	color: #aaaaaa;
   	float: right;
@@ -346,7 +335,6 @@ td,th{
 	padding:0;
 }
 
-/* Skeleton | Copyright 2014 Dave Gamache | (http://getskeleton.com) | MIT license | Version 2.0.4 */
 .container{
 	position:relative;
 	width:100%;
